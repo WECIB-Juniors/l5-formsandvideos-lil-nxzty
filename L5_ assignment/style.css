@@ -2,6 +2,33 @@
     box-sizing: border-box;
 }
 
+@media screen and (max-width: 600px) {  
+  label,
+  input[type=text],
+  input[type=submit],
+  select, textarea {
+    flex: 100%;
+    min-width: 100%;
+  }
+}
+label {
+  min-width: 48%;
+  margin-bottom: 10px;
+}
+
+body{
+  background-color: #F7F7F4;
+}
+
+h1 {
+  color: #A49074  ;
+}
+
+p {
+  color: #473840;
+}
+
+
 .responsive-form {
     display: flex;
   flex-wrap: wrap;
