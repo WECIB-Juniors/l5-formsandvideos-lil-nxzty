@@ -16,10 +16,10 @@ Requirements
     - At least these inputs: a text input (name), an email input, a select or radio group (choice), a checkbox, a textarea, and a submit button.
     - Use `label` elements correctly linked to inputs (for accessibility).
     - Set the form `method` to either `GET` or `POST` and set `action` to a test endpoint (e.g., `https://httpbin.org/post` for POST or `https://httpbin.org/get` for GET) or `#` for local testing. Include a one-line comment explaining your choice.
+    - Download a sample video file from https://www.pexels.com/search/videos/. 
     - Use HTML5 validation attributes (`required`, `pattern`, `minlength`, etc.) on at least two fields.
 - Embed a video:
     - Use the HTML5 `<video>` element with `controls`.
-    - Download a sample video file from https://www.pexels.com/search/videos/. 
     - Reference a local file (e.g., `media/sample.mp4`), and include fallback text.
     - Optionally include a captions/subtitles `<track>` element and a short caption file (or explain how to add one).
 - Accessibility & semantics:
